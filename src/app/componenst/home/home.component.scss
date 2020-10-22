@@ -1,0 +1,84 @@
+// FONDO E IMAGEN
+.sombra,
+.contenidoSeccion {
+  height: 100vh;
+}
+.contenidoSeccion {
+  background-image: url('/assets/img/image-home.jpg');
+  background-size: cover;
+  
+}
+.sombra {
+  background-color: #000000a0;
+}
+
+// CONTENEDOR DE TODO EL TITULO
+.tituloSeccion {
+  padding-top: 30vh;
+}
+// TITULO
+.nombreTitlo,
+.titulo,
+.Habilidades-titulo,
+.llaves {
+  margin: 0;
+  padding: 0;
+}
+.titulo,
+.llaves,
+.Habilidades-titulo,
+.D,
+.L {
+  font-style: normal;
+  text-transform: capitalize;
+}
+.titulo,
+.llaves,
+.Habilidades-titulo {
+  font-weight: normal;
+  letter-spacing: 0.1em;
+}
+.nombreTitlo,
+.L,
+.D {
+  font-size: 2.8rem;
+}
+.nombreTitlo {
+  letter-spacing: 0.5em;
+}
+.D,
+.L {
+  font-weight: 900;
+}
+.D {
+  color: #233f88;
+}
+.L {
+  color: #5f5f5f;
+}
+.titulo {
+  font-size: 4rem;
+}
+.llaves {
+  font-size: 5rem;
+}
+// .tituloSeccion {
+//   font-size: 1.5rem;
+// }
+
+// ANIMACIONES
+
+// .left {
+//   animation-duration: 3s;
+//   animation-name: slideleft;
+// }
+// @keyframes slideleft {
+//     from {
+//         margin-left:100%;
+//         width:300%
+//       }
+//       to {
+//        margin-left:0%;
+//        width:100%;
+//      }
+// }
